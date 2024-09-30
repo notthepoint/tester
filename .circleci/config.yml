@@ -21,6 +21,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - run:  echo $DOTS_ENV_VAR
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
